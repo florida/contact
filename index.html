@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Florida Elago</title>
+  <script src="https://kit.fontawesome.com/79d9599425.js" crossorigin="anonymous"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
+
+    body {
+      background: rgb(238,174,202);
+      background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+      font-family: 'Syncopate', sans-serif;
+    }
+
+    main {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    header img {
+      width: 100%;
+      border-radius: 50%;
+      mix-blend-mode: color-burn;
+      filter: opacity(0.8);
+    }
+
+    header img:hover {
+      mix-blend-mode: color-burn;
+      animation: hue-rotate 5s linear infinite;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    li a {
+      display: block;
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: white;
+      padding: 1rem;
+      border: 5px solid white;
+      margin: 1rem;
+      text-transform: uppercase;
+      box-shadow: 5px 5px #c09fc0;
+    }
+
+    li a:hover {
+      animation: zomg 1s linear infinite;
+      cursor: pointer;
+    }
+
+    h1 {
+      color: white;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 2rem;
+      text-shadow: 3px 3px #c09fc0;
+    }
+
+    @-webkit-keyframes zomg {
+  0%, 100% { color: #fcfcc8; border-color: #fcfcc8 }
+  20%      { color: #c3f8f4; border-color: #c3f8f4 }
+  40%      { color: #cbe1ff; border-color: #cbe1ff }
+  60%      { color: #edd7ff; border-color: #edd7ff }
+  80%      { color: #ffcbea; border-color: #ffcbea }
+}
+@keyframes zomg {
+  0%, 100% { color: #fcfcc8; border-color: #fcfcc8 }
+  20%      { color: #c3f8f4; border-color: #c3f8f4 }
+  40%      { color: #cbe1ff; border-color: #cbe1ff }
+  60%      { color: #edd7ff; border-color: #edd7ff }
+  80%      { color: #ffcbea; border-color: #ffcbea }
+}
+
+@keyframes hue-rotate {
+  from {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0) opacity(0.5);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg) opacity(0.5);
+  }
+}
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <img src="./DSC09844.png">
+      <h1>Florida Elago</h1>
+    </header>
+    <section>
+      <ul>
+        <li><a href="./contact.vcf"><i class="far fa-address-book"></i> Save Contact</a></li>
+        <li><a href="https://instagram.com/floridaelago"><i class="fab fa-instagram"> </i> Instagram</a></li>
+        <li><a href="https://twitter.com/floridaelago"><i class="fab fa-twitter"></i> Twitter</a></li>
+        <li><a href="https://www.tiktok.com/@floridaelago"><i class="fab fa-tiktok"></i> TikTok</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+
+</html>
